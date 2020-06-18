@@ -3,7 +3,7 @@
     --grid-rows: 1;
 }
   
-#container {
+.grid {
   display: grid;
   grid-gap: 1em;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
@@ -16,6 +16,10 @@ border: 1px solid #ddd;
 text-align: center;
 }
 
-.my-color-class {
-  background-color: blue;
+.button-item {
+  padding: 1em;
+  border: 1px solid #ddd;
+  text-align: center;
 }
+
+
