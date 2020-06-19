@@ -1,6 +1,5 @@
 const container = document.getElementById("container");
 const grid = document.querySelector('.grid');
-const resetBtn = document.querySelector('.resetBtn');
 
 function makeRows(rows, cols) {
   grid.style.setProperty('--grid-rows', rows);
@@ -12,12 +11,17 @@ function makeRows(rows, cols) {
   };
 };
 
-function addBtn(){
-  let button = document.createElement("button");
-  button.innerText = "reset";
-  resetBtn.appendChild(button).className = "button-item";
+function reset(){
+  let squares = window.prompt("How many squares?");
 }
 
+const resetButton = document.querySelector(".resetBtn");
+resetButton.addEventListener("click", function() {
+    grid.innerHTML = "";
+    makeRows(16,16);
+});
+
+
+
 makeRows(16, 16);
-addBtn();
 

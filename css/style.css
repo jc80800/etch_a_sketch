@@ -16,10 +16,18 @@ border: 1px solid #ddd;
 text-align: center;
 }
 
-.button-item {
+.resetBtn {
   padding: 1em;
   border: 1px solid #ddd;
   text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.btnDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
 }
 
 
