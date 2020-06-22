@@ -1,1 +1,1 @@
-# etch_a_sketch
+# A close duplicate of etch-a-sketch using DOM manipuation, basic HTML, CSS, and javascript
