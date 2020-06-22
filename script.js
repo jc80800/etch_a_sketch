@@ -1,7 +1,8 @@
 const container = document.getElementById("container");
 const grid = document.querySelector('.grid');
 const resetButton = document.querySelector(".resetBtn");
-
+const RGB = document.querySelector('.randomRGB');
+const shade = document.querySelector('.shade');
 
 function makeRows(rows, cols) {
   grid.style.setProperty('--grid-rows', rows);
@@ -27,6 +28,7 @@ resetButton.addEventListener('click', () => {
   let square = window.prompt("How many squares? (keep within range of 16 - 64");
   makeRows(square, square);
 });
+
 
 makeRows(16, 16);
 

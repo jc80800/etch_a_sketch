@@ -34,6 +34,20 @@
   grid-template-rows: 3fr 1fr;
 }
 
+.btns {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+  column-gap: 300px;
+  margin: 60px;
+  
+
+}
+
+.randomRGB{
+  padding: 30px;
+}
+
 
 
 
